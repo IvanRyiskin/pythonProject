@@ -1,0 +1,964 @@
+1653584159918	geckodriver	INFO	Listening on 127.0.0.1:64581
+1653584162989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64582" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileCPPV4G"
+1653584163314	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileCPPV4G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64582/devtools/browser/96fdcb94-7fa3-4d7c-8780-91fb2cccc4a9
+1653584165453	Marionette	INFO	Listening on port 64602
+Read port: 64602
+1653584165516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653584168302	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-05-26T16:56:08Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T16:56:08Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T16:56:08Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T16:56:08Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1653586623267	Marionette	INFO	Stopped listening on port 64602
+ust_mozprofilekkh6dF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64923/devtools/browser/777d3a0f-c8e1-443b-9bed-caf917dcc004
+1653584332637	Marionette	INFO	Listening on port 64946
+Read port: 64946
+1653584332753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653584335483	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-05-26T16:58:55Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T16:58:55Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T16:58:55Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T16:58:55Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dru%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=ru&ec=65620 line 1 > eval line 5030 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[2022-05-26T16:59:10Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T16:59:10Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T16:59:10Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T16:59:10Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1653584351682	Marionette	INFO	Stopped listening on port 64946
+1653584371758	geckodriver	INFO	Listening on 127.0.0.1:65266
+1653584374798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65267" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofile4AZCnr"
+1653584375128	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofile4AZCnr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65267/devtools/browser/3afbc08d-d14b-465c-84dc-54b9afbab776
+1653584377241	Marionette	INFO	Listening on port 65285
+Read port: 65285
+1653584377420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653584379780	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-05-26T16:59:39Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T16:59:39Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T16:59:39Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T16:59:39Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dru%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=ru&ec=65620 line 1 > eval line 3523 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[2022-05-26T17:00:25Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T17:00:25Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T17:00:25Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T17:00:25Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dru%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=ru&ec=65620 line 1 > eval line 1529 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[2022-05-26T17:00:32Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T17:00:32Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T17:00:32Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T17:00:32Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1653584531374	Marionette	INFO	Stopped listening on port 65285
+[Parent 26404, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1653585418168	geckodriver	INFO	Listening on 127.0.0.1:49281
+1653585421218	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49282" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileKTDGOO"
+1653585421569	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileKTDGOO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49282/devtools/browser/34ba3369-ddc7-41c8-9698-44a6bf8b9dfe
+1653585423696	Marionette	INFO	Listening on port 49302
+Read port: 49302
+1653585423733	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653585428116	Marionette	INFO	Stopped listening on port 49302
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653585442097	geckodriver	INFO	Listening on 127.0.0.1:49328
+1653585445169	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49329" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofilevBUcHt"
+1653585445496	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofilevBUcHt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49329/devtools/browser/0b5c114d-e88e-4122-9833-d069c1caccec
+1653585447603	Marionette	INFO	Listening on port 49352
+Read port: 49352
+1653585447650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.heihei.ru/php_includes/topmenu.js, line 2: SyntaxError: expected expression, got '<'
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653585454326	Marionette	INFO	Stopped listening on port 49352
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+1653585466793	geckodriver	INFO	Listening on 127.0.0.1:49695
+1653585469837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49696" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileR0ba6G"
+1653585470162	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileR0ba6G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49696/devtools/browser/5fc24aba-ca03-4698-adb1-06ec78af81e8
+1653585472332	Marionette	INFO	Listening on port 49719
+Read port: 49719
+1653585472419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.heihei.ru/php_includes/topmenu.js, line 2: SyntaxError: expected expression, got '<'
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653585475349	Marionette	INFO	Stopped listening on port 49719
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_GetModulesTrust) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\RYSKIN~1.I\AppData\Local\Temp\rust_mozprofileR0ba6G\protections.sqlite
+1653585558123	geckodriver	INFO	Listening on 127.0.0.1:49832
+1653585561172	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49833" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileDJpDiI"
+1653585561501	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileDJpDiI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49833/devtools/browser/9c922478-1947-4f5a-8fa9-df16909b3a33
+1653585563667	Marionette	INFO	Listening on port 49854
+Read port: 49854
+1653585563727	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.heihei.ru/php_includes/topmenu.js, line 2: SyntaxError: expected expression, got '<'
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653585584650	Marionette	INFO	Stopped listening on port 49854
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1653585594150	geckodriver	INFO	Listening on 127.0.0.1:49953
+1653585597212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49954" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileweaUqD"
+1653585597541	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileweaUqD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49954/devtools/browser/4129bbd9-e64f-44ae-ae98-40185f72dbd4
+1653585599635	Marionette	INFO	Listening on port 49972
+Read port: 49972
+1653585599681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.heihei.ru/php_includes/topmenu.js, line 2: SyntaxError: expected expression, got '<'
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653585622531	Marionette	INFO	Stopped listening on port 49972
+1653585711050	geckodriver	INFO	Listening on 127.0.0.1:50129
+1653585714097	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50130" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofiletlllGx"
+1653585714421	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofiletlllGx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50130/devtools/browser/8f9a0b25-8f99-4e52-a7b3-ac6d7d5cbf48
+1653585716501	Marionette	INFO	Listening on port 50148
+Read port: 50148
+1653585716673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.heihei.ru/php_includes/topmenu.js, line 2: SyntaxError: expected expression, got '<'
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653585732087	Marionette	INFO	Stopped listening on port 50148
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+Shutting down due to socket process crash.
+1653594397438	geckodriver	INFO	Listening on 127.0.0.1:59006
+1653594400503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59007" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileWDAvmp"
+1653594400974	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileWDAvmp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59007/devtools/browser/a75ad90e-798d-4200-b666-f2a24528ff17
+1653594403732	Marionette	INFO	Listening on port 59025
+Read port: 59025
+1653594403822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653594406416	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-05-26T19:46:46Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T19:46:46Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T19:46:46Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T19:46:46Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1653594412121	Marionette	INFO	Stopped listening on port 59025
+1653594420966	geckodriver	INFO	Listening on 127.0.0.1:59225
+1653594424380	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59226" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileZgZWPb"
+1653594424824	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofileZgZWPb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59226/devtools/browser/cbc729ce-addc-4e3d-9947-0f6ec2c75361
+1653594427001	Marionette	INFO	Listening on port 59245
+Read port: 59245
+1653594427104	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653594429837	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-05-26T19:47:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T19:47:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T19:47:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T19:47:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3400: TypeError: data.frameData.id is null
+[Child 30408, MediaDecoderStateMachine #3] WARNING: 251539aeef0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DispatchBeforeUnloadToSubtree) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PWindowGlobal::Msg_RawMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PWindowGlobal::Msg_RawMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PWindowGlobal::Msg_RawMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PWindowGlobal::Msg_RawMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UnregisterJSWindowActor) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UnregisterJSWindowActor) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UnregisterJSWindowActor) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UnregisterJSWindowActor) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UnregisterJSWindowActor) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UnregisterJSWindowActor) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_UpdateEffects) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessagA content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1653595617227	Marionette	INFO	Stopped listening on port 57339
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Parent][PGPUParent] Error: Send(msgname=PGPU::Msg_InitComplete) Channel error: cannot send/recv
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_InitProfiler) Channel error: cannot send/recv
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_InitVsyncBridge) Channel error: cannot send/recv
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_GetDeviceStatus) Channel error: cannot send/recv
+
+sgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PSocketProcessParent] Error: Send(msgname=PSocketProcess::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PSocketProcessParent] Error: Send(msgname=PSocketProcess::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PSocketProcessParent] Error: Send(msgname=PSocketProcess::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PRDDChild] Error: Send(msgname=PRDD::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+1653595877912	geckodriver	INFO	Listening on 127.0.0.1:62837
+1653595880982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62838" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofile9uaHKO"
+1653595881434	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RYSKIN~1.I\\AppData\\Local\\Temp\\rust_mozprofile9uaHKO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62838/devtools/browser/a4269a51-bfe9-4f70-8ef8-008722f06c77
+1653595884168	Marionette	INFO	Listening on port 62860
+Read port: 62860
+1653595884278	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653595887488	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-05-26T20:11:27Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T20:11:27Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T20:11:27Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T20:11:27Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1653596694396	Marionette	INFO	Stopped listening on port 62860
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+Agent	WARN	TLS certificate errors will be ignored for this session
+1653596238586	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-05-26T20:17:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T20:17:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T20:17:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T20:17:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+[Child 22952, MediaDecoderStateMachine #1] WARNING: 2072b90df00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1653596623512	Marionette	INFO	Stopped listening on port 63185
+ust_mozprofileHg08TH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63457/devtools/browser/5e5a590f-98c2-4cdd-b2ca-f4a2881a6a25
+1653596402842	Marionette	INFO	Listening on port 63475
+Read port: 63475
+1653596402894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653596405307	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-05-26T20:20:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T20:20:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T20:20:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-26T20:20:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 35104, MediaDecoderStateMachine #1] WARNING: 1e4d719a8a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+1653596469898	Marionette	INFO	Stopped listening on port 63475
